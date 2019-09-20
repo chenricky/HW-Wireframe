@@ -27,14 +27,14 @@
         margin-top: 15px;
         margin-bottom: 15px;
         margin-left: 100px;
-        margin-right: 100px;
+        margin-right: 10px;
         height: 250px;
     }
     aside {
         background-color:#ebebeb;
         margin-top: 15px;
         margin-bottom: 15px;
-        margin-left: 100px;
+        margin-left: 10px;
         margin-right: 100px;
         height: 250px;
     }
@@ -44,6 +44,7 @@
         margin-bottom: 15px;
         margin-left: 100px;
         margin-right: 100px;
+     
     }
     article {
         color:#ebebeb;
@@ -65,7 +66,7 @@
     .box {
         float: left;
         width: 50%;
-        padding: 50px;
+        padding: 0px;
       }
 
     .footer {
