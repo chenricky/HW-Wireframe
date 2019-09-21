@@ -1,4 +1,6 @@
 <style>
+
+
     body {
         font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
         color:#777;
@@ -59,9 +61,10 @@
         background-color:#ebebeb;
     }
 
-    * {
+    .box_grid {
         box-sizing: border-box;
       }
+      
 
     .box {
         float: left;
@@ -76,6 +79,12 @@
         left: 0;
         bottom: 0; 
     }
-   
+   .main-container {
+    min-height: 100vh; /* will cover the 100% of viewport */
+    overflow: hidden;
+    display: block;
+    position: relative;
+    padding-bottom: 100px; /* height of your footer */
+   }
 
 </style>
