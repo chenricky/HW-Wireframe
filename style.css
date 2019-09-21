@@ -30,7 +30,8 @@
         margin-bottom: 15px;
         margin-left: 100px;
         margin-right: 10px;
-        height: 250px;
+        height: 350px;
+        padding: 20px;
     }
     aside {
         background-color:#ebebeb;
@@ -38,7 +39,8 @@
         margin-bottom: 15px;
         margin-left: 10px;
         margin-right: 100px;
-        height: 250px;
+        height: 350px;
+        padding:20px;
     }
     footer {
         background-color:#ebebeb;
@@ -51,14 +53,18 @@
     article {
         color:#ebebeb;
         background-color:#777;
+        padding:20px;
     }
     h1 {
         color:#777;
         background-color:#ebebeb;
+        padding:20px;
     }
+    
     p {
         color:#777;
         background-color:#ebebeb;
+        padding:20px;
     }
 
     .box_grid {
