@@ -1,5 +1,3 @@
-<style>
-
 
     body {
         font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
@@ -7,7 +5,20 @@
         background-color:#777;
         width:960px;
         font-size:18px;
+        text-align: center;
+        box-sizing: border-box;
     }
+
+    .main-container {
+        min-height: 100vh; /* will cover the 100% of viewport */
+        overflow: hidden;
+        display: block;
+        position: relative;
+        padding-bottom: 100px; /* height of your footer */
+        border: 1px solid red;
+       }
+
+
     header {
         background-color:#ebebeb;
         height: 150px;
@@ -15,6 +26,7 @@
         margin-bottom: 15px;
         margin-left: 100px;
         margin-right: 100px;
+        text-align: center;
     }
     nav {
         background-color:#ebebeb;
@@ -48,6 +60,7 @@
         margin-bottom: 15px;
         margin-left: 100px;
         margin-right: 100px;
+        
      
     }
     article {
@@ -67,11 +80,7 @@
         padding:20px;
     }
 
-    .box_grid {
-        box-sizing: border-box;
-      }
-      
-
+    
     .box {
         float: left;
         width: 50%;
@@ -85,12 +94,4 @@
         left: 0;
         bottom: 0; 
     }
-   .main-container {
-    min-height: 100vh; /* will cover the 100% of viewport */
-    overflow: hidden;
-    display: block;
-    position: relative;
-    padding-bottom: 100px; /* height of your footer */
-   }
 
-</style>
