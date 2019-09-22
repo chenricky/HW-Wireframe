@@ -7,10 +7,10 @@
         font-size:18px;
         text-align: center;
         box-sizing: border-box;
+        border:5px solid blue;
     }
-
     .main-container {
-        min-height: 100vh; /* will cover the 100% of viewport */
+        min-height: 100%;
         overflow: hidden;
         display: block;
         position: relative;
@@ -60,7 +60,7 @@
         margin-bottom: 15px;
         margin-left: 100px;
         margin-right: 100px;
-        
+        border: 5px solid yellow;
      
     }
     article {
